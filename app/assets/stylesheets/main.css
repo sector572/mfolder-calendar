@@ -1,0 +1,45 @@
+.main_div  {
+  border-right: 0.1em solid gray;
+  float: left;
+  text-align: center;
+  width: 2em;
+  height: 1.8em;
+}
+
+.task {
+  width:30%; 
+  float:left; 
+  border-radius: 0.4em;	
+  text-align: center;
+  overflow: hidden;
+}
+
+.empty_line {
+  float:left;
+}
+
+.task_line {
+  clear: both;
+  width: 100%;
+  height: 30px;
+  
+}
+
+.date_line3{
+ float:left;	
+ overflow: hidden;
+}
+
+.date_header_column{
+	border: 1px solid gray;
+  height: 100%;
+}
+
+.td_line{
+	padding: 0px;
+}
+
+.rd{
+  position: relative;
+  bottom: 20px;
+}

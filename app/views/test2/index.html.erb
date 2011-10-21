@@ -1,0 +1,15 @@
+<html>
+	<head>
+ 	<title>TestApp</title>
+		<%= stylesheet_link_tag    "test2/main" %>
+	</head>
+<body>
+	<div class='main_div' style='width: 100%;'>
+		<div class='calendar_container' >
+			<table class='gant_table' cellspacing="0" cellpadding="0" style='width: 100%; table-layout: fixed;'>
+				<%= @events_presenter.to_html %>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

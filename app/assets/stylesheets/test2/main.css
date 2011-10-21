@@ -1,0 +1,90 @@
+.main_div  {
+//border-right: 0.1em solid gray;
+
+  text-align: center;
+}
+
+.task {
+  text-align: center;
+  overflow: hidden;
+  background-color: red;
+//   border: 0.1em solid gray;
+}
+
+.td_task{
+ 
+//white-space: nowrap;
+}
+.task_start_in_range{
+    border-bottom-left-radius: 0.4em;
+    border-top-left-radius: 0.4em;
+  
+}
+.task_end_in_range{
+    border-bottom-right-radius: 0.4em;
+    border-top-right-radius: 0.4em;
+  
+}
+
+.empty_line {
+
+}
+
+.task_line {
+  
+}
+
+.date_line3{
+ #overflow: hidden;
+  height: 100%; 
+ //  border-bottom: 0.1em solid gray;
+}
+
+td {
+  border-bottom: 0.1em solid gray;
+}
+th{
+ border-bottom: 0.1em solid gray; 
+//    border-right: 0.1em solid gray;
+}
+.date_column{
+  
+}
+
+.date_header_column{
+//	border: 1px solid gray;
+//  border-bottom: 0.1em solid gray;
+   border-right: 0.1em solid gray;
+  height: 100%;
+  overflow: hidden;
+}
+
+.td_line{
+	padding: 0px;
+   overflow: hidden;
+}
+
+.work_day{
+ // background-color: blue;
+  
+}
+
+.rest_day{
+  background-color: lightBlue;
+}
+
+.event_title{
+  overflow: hidden;
+   height: 100%; 
+}
+
+.td_event{
+ height: 100%; 
+}
+
+.event_main_div{
+  height: 100%; 
+ // border-bottom: 0.1em solid gray;
+  border-right: 0.1em solid gray;
+}
+

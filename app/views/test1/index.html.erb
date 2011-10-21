@@ -1,0 +1,98 @@
+<html>
+<head>
+<head>
+  <title>TestApp</title>
+  <%= stylesheet_link_tag    "main" %>
+</head>
+</head>
+<body>
+<div class='main_div' style='width: 100%;'>
+<table class='gant_table' cellspacing="0" cellpadding="3" border="2" style='width: 100%;'>
+<tbody>
+<tr>
+	<th  bgcolor='yellow'  style='width: 20%;'>
+	</th>
+	<th class='td_line' bgcolor='green' style='width: 80%;'>
+		<div>
+		<% (1..31).to_a.each do |x| %>
+<div class="date_line3" style='width: <%=100.0/31%>%;'>
+<div class="date_header_column">
+<%= x %>
+</div>
+</div>
+
+		<% end %>
+		</div>
+	</th>
+</tr>
+<tr>
+	<td>
+	Test
+	</td>
+	<td class='td_line'>
+	<div class='task_area'>
+	<div class='task_line' height='30px'>
+
+<% (1..31).to_a.each do |x| %>
+<div class="date_line3" style='width: <%=100.0/31%>%;'>
+<div class="date_header_column">
+
+</div>
+</div>
+
+		<% end %>
+		
+
+		<div class='empty_line rd' style='width:10%; position: relative; bottom: 20px;'>&nbsp;
+		</div>
+
+		<div class='task rd'   style='background-color:green; width:35%;'> 
+		dder3
+		</div>
+		<div class='empty_line rd' style='width:20%;'>&nbsp;
+		</div>	
+		<div class='task rd'  style='background-color:darkBlue; width:30%;'> 
+		dder3
+		</div>	
+		<div class='empty_line rd' style='width:5%;'>&nbsp;
+		</div>					
+	</div>
+	<div class='task_line' height='30px'>
+
+<% (1..31).to_a.each do |x| %>
+<div class="date_line3" style='width: <%=100.0/31%>%;'>
+<div class="date_header_column">
+
+</div>
+</div>
+
+		<% end %>
+	<!--div class='task_line' style='width: 100%; clear: both;'-->
+
+		<div class='empty_line  rd' style='width:20%;'>&nbsp;
+		</div>	
+		<div class='task rd' style='width:60%; background-color:yellow; '> 
+		zzx
+		</div>	
+		<div class='empty_line rd' style='width:20%;'>&nbsp;
+		</div>	
+		</div>		
+
+	</div>
+	</div>
+	</td>
+</tr>
+<tr>
+	<td>
+		rrr2
+	</td>
+	<td>
+		rrr2
+	</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</body>
+</html>
