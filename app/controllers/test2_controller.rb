@@ -24,6 +24,12 @@ grouped_events << Presenters::Calendar::GroupedEventWrapper.new("Презент�
     Presenters::Calendar::EventWrapper.new("Показ новых устройств", Date.new(2011, 12, 02), Date.new(2011, 12, 24))
   ])
 
+grouped_events << Presenters::Calendar::GroupedEventWrapper.new("Тест событие",
+  [
+    Presenters::Calendar::EventWrapper.new("очень далекое событие", Date.new(2012, 12, 02), Date.new(2012, 12, 24))
+  ])
+
+
 @events_presenter = Presenters::EventsPresenter.new(start_date, end_date, grouped_events)
 
 
